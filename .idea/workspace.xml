@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df74f39e-f0d1-491e-8c6b-2e0caa5623e7" name="Changes" comment="issue: 增加文档">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/filter/BasicAuthecationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/filter/RateLimitFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/util/AesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/doc/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/domain/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/doc/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/doc/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/doc/img_8.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/ly.key" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/sql/createtable.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_cloud_learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_cloud_learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/java/org/example/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/doc/api安全.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring_cloud_learn/src/main/resources/doc/api安全.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_cloud_learn/target/classes/doc/api安全.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring_cloud_learn/target/classes/doc/api安全.md" afterDir="false" />
     </list>
@@ -91,7 +87,7 @@
       <recent name="D:\respository\liuyao\spring_cloud_alibaba_learning\spring_cloud_learn\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #33">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #34">
     <configuration name="generated-requests | #30" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="30" requestIdentifier="#30" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -119,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #33" />
         <item itemvalue="HTTP Request.generated-requests | #34" />
+        <item itemvalue="HTTP Request.generated-requests | #33" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="HTTP Request.generated-requests | #31" />
         <item itemvalue="HTTP Request.generated-requests | #30" />
@@ -146,6 +142,7 @@
       <workItem from="1702841301702" duration="4664000" />
       <workItem from="1703088288941" duration="19342000" />
       <workItem from="1703177868386" duration="347000" />
+      <workItem from="1703178559815" duration="4548000" />
     </task>
     <task id="LOCAL-00001" summary="issue: 增加文档">
       <created>1702042582129</created>
@@ -196,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703128595345</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="issue: 增加文档">
+      <created>1703178749185</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703178749185</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
